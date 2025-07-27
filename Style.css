@@ -1,5 +1,6 @@
 body{
     text-align: center;
+    background-color:lightskyblue;
 }
 
 
@@ -38,4 +39,13 @@ body{
 }
 .userflash{
     background-color: black;
+}
+
+#btn11{
+    height: 50px;
+    width: 100px;
+    background-color: green;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: large;
 }

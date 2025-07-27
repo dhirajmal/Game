@@ -3,8 +3,8 @@ let userSeq=[];
 let btns=["green","yellow","blue","red"];
 let started=false;
 let level=0;
-
-document.addEventListener("keypress",function(){      
+let btn11=document.querySelector('#btn11');
+btn11.addEventListener("click",function(){      
     if(started==false){
         started=true;
         levelUp();
